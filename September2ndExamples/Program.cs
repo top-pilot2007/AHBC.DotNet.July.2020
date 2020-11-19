@@ -9,6 +9,7 @@ namespace September2ndExamples
     {
         static void Main(string[] args)
         {
+            //a change to cause a conflict
             //How we could potentionally store zipcode and sales tax for lookup/reference
             var dictionaryExample = new Dictionary<int, decimal>() { { 48236, 0.06m }, { 48383, 0.07m } };
             //adding the same key causes an exception
